@@ -142,13 +142,6 @@ app.post('/debit', (req, res) => {
     });
   }
 
-  if (!req.body.bet_id) {
-    return res.json({
-      error: 6,
-      message: 'the field bet_id is required',
-    });
-  }
-
   if (!req.body.currency) {
     return res.json({
       error: 6,
