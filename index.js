@@ -11,7 +11,7 @@ const TOKEN = 'test_token';
 const player = {
   id: '1-en',
   username: 'player',
-  balance: 100.0,
+  balance: 100000.0,
   currency: 'USD',
   lang: 'en',
   session_token: 'abc123',
